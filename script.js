@@ -4,13 +4,16 @@ function firstWord(s) {
 	s=s.trim();
 	s=s+" ";
 	for(let t of s ){
-		f=f+t;
+		
 		if(t==" "){
 			break;
-			
 		}
+		f=f+t;
 	}
+	
 	return f;
+
+	
 }
 
 // Do not change the code below
